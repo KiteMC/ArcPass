@@ -23,10 +23,12 @@ ArcPass is a premium Battle Pass plugin that brings seasonal progression, quests
 - **Multi-Tier Pass System** - Free, Premium, VIP tiers with independent reward tracks
 - **Rich Quest System** - Daily, weekly, seasonal, and story quests
 - **Flexible Rewards** - Items, economy, permissions, titles, cosmetics
+- **Multi-Currency** - Vault/CMI economy and points plugins (PlayerPoints, CoinsEngine, TokenManager)
+- **Title Plugins** - DeluxeTags, TAB, PlayerTitle, NametagEdit with automatic fallback
 - **Season Management** - Complete season control with progress reset
 - **Customizable GUI** - Fully configurable interface system
 - **Leaderboards** - Level, experience, and season rankings
-- **Wide Compatibility** - Vault, LuckPerms, PlaceholderAPI, TAB, MythicMobs, Jobs, and more
+- **Wide Compatibility** - LuckPerms, PlaceholderAPI, MythicMobs, Jobs, and more
 - **Folia Support** - Full multi-threaded server compatibility
 
 ## Requirements
@@ -47,11 +49,10 @@ ArcPass is a premium Battle Pass plugin that brings seasonal progression, quests
 
 ArcPass is a paid plugin. A valid license is required for full functionality.
 
-| Plan | Price | Devices | Ports/Device |
-|------|-------|---------|--------------|
-| Personal | $7 | 3 | 2 |
-| Professional | $18 | 10 | 5 |
-| Unlimited | $42 | 50 | 50 |
+| Plan         | Price  | Devices | Ports/Device | Extras                             |
+|--------------|--------|---------|--------------|-------------------------------------|
+| Standard     | $12.99 | 5       | 3            | Lifetime updates                    |
+| Professional | $29.99 | 25      | 15           | Lifetime updates, Priority support  |
 
 **[Purchase License](https://license.kitemc.com/products/arcpass)**
 
@@ -80,7 +81,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("com.kitemc:arcpass-api:1.0.0")
+    compileOnly("com.kitemc:arcpass-api:1.1.0")
 }
 ```
 
@@ -95,7 +96,7 @@ dependencies {
 <dependency>
     <groupId>com.kitemc</groupId>
     <artifactId>arcpass-api</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <scope>provided</scope>
 </dependency>
 ```
