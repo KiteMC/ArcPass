@@ -81,7 +81,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("com.kitemc:arcpass-api:1.1.4")
+    compileOnly("com.kitemc:arcpass-api:1.2.0")
 }
 ```
 
@@ -96,7 +96,7 @@ dependencies {
 <dependency>
     <groupId>com.kitemc</groupId>
     <artifactId>arcpass-api</artifactId>
-    <version>1.1.4</version>
+    <version>1.2.0</version>
     <scope>provided</scope>
 </dependency>
 ```
