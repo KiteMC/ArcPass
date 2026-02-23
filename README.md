@@ -24,7 +24,7 @@ ArcPass is a premium Battle Pass plugin that brings seasonal progression, quests
 - **Rich Quest System** - Daily, weekly, seasonal, and story quests
 - **Flexible Rewards** - Items, economy, permissions, titles, cosmetics
 - **Multi-Currency** - Vault/CMI economy and points plugins (PlayerPoints, CoinsEngine, TokenManager)
-- **Title Plugins** - DeluxeTags, TAB, PlayerTitle, NametagEdit with automatic fallback
+- **Title Plugins** - DeluxeTags, TAB, NametagEdit with automatic fallback
 - **Season Management** - Complete season control with progress reset
 - **Customizable GUI** - Fully configurable interface system
 - **Leaderboards** - Level, experience, and season rankings
@@ -65,7 +65,7 @@ ArcPass is a paid plugin. A valid license is required for full functionality.
 
 ## Support
 
-- **Discord**: [Join our community](https://discord.com/invite/TCn9v88V)
+- **Discord**: [Join our community](https://discord.gg/dcsBw5Z5ZT)
 - **Email**: <starry_cbz@outlook.com>
 - **License Center**: [Manage your licenses](https://license.kitemc.com/dashboard/licenses)
 
@@ -81,7 +81,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("com.kitemc:arcpass-api:1.3.0")
+    compileOnly("com.kitemc:arcpass-api:1.3.1")
 }
 ```
 
@@ -96,7 +96,7 @@ dependencies {
 <dependency>
     <groupId>com.kitemc</groupId>
     <artifactId>arcpass-api</artifactId>
-    <version>1.3.0</version>
+    <version>1.3.1</version>
     <scope>provided</scope>
 </dependency>
 ```
