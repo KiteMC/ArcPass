@@ -20,16 +20,21 @@ ArcPass is a premium Battle Pass plugin that brings seasonal progression, quests
 
 ## Features
 
-- **Multi-Tier Pass System** - Free, Premium, VIP tiers with independent reward tracks
-- **Rich Quest System** - Daily, weekly, seasonal, and story quests
-- **Flexible Rewards** - Items, economy, permissions, titles, cosmetics
+- **Multi-Pass System** - Define multiple passes (Combat, Explorer, Builder, etc.) with independent progression
+- **Multi-Tier Rewards** - Free, Premium, VIP tiers with independent reward tracks per pass
+- **Rich Quest System** - Daily, weekly, seasonal, challenge, and story quests with auto-reset
+- **Flexible Rewards** - Items, commands, economy, permissions, titles, cosmetics
 - **Multi-Currency** - Vault/CMI economy and points plugins (PlayerPoints, CoinsEngine, TokenManager)
-- **Title Plugins** - DeluxeTags, TAB, NametagEdit with automatic fallback
-- **Season Management** - Complete season control with progress reset
-- **Customizable GUI** - Fully configurable interface system
-- **Leaderboards** - Level, experience, and season rankings
-- **Wide Compatibility** - LuckPerms, PlaceholderAPI, MythicMobs, Jobs, and more
-- **Folia Support** - Full multi-threaded server compatibility
+- **Title Plugins** - DeluxeTags, TAB, NametagEdit with automatic fallback chain
+- **Season Management** - Complete season lifecycle with archiving and progress reset
+- **Customizable GUI** - YAML-driven interface with ItemsAdder & Oraxen icon support
+- **Leaderboards** - Level and experience rankings with caching
+- **Database Support** - SQLite and MySQL/MariaDB with automatic schema migration
+- **Auto-Save** - Configurable periodic saves with dirty-tracking and failure retry
+- **Hot Reload** - Reload configs, passes, quests, rewards, and language files without restart
+- **Wide Compatibility** - LuckPerms, PlaceholderAPI, MythicMobs, Jobs Reborn, and more
+- **Folia Support** - Full region-based scheduling compatibility
+- **Multi-Language** - Built-in i18n with per-player locale support
 
 ## Requirements
 
@@ -81,7 +86,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("com.kitemc:arcpass-api:1.3.1")
+    compileOnly("com.kitemc:arcpass-api:1.3.2")
 }
 ```
 
@@ -96,7 +101,7 @@ dependencies {
 <dependency>
     <groupId>com.kitemc</groupId>
     <artifactId>arcpass-api</artifactId>
-    <version>1.3.1</version>
+    <version>1.3.2</version>
     <scope>provided</scope>
 </dependency>
 ```
