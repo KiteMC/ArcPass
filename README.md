@@ -57,9 +57,28 @@ ArcPass is a paid plugin. A valid license is required for full functionality.
 | Plan         | Price  | Devices | Ports/Device | Extras                             |
 |--------------|--------|---------|--------------|-------------------------------------|
 | Standard     | $12.99 | 5       | 3            | Lifetime updates                    |
-| Professional | $29.99 | 25      | 15           | Lifetime updates, Priority support  |
+| Professional | $29.99 | 25      | 15           | Lifetime updates, Priority support, Developer API |
 
 **[Purchase License](https://license.kitemc.com/products/arcpass)**
+
+### Plan Comparison
+
+| Feature                          | Standard | Professional |
+|----------------------------------|:--------:|:------------:|
+| Multi-Pass System                | ✅       | ✅           |
+| Multi-Tier Rewards               | ✅       | ✅           |
+| Quest System (All Types)         | ✅       | ✅           |
+| Season Management                | ✅       | ✅           |
+| Leaderboards                     | ✅       | ✅           |
+| Database (SQLite / MySQL)        | ✅       | ✅           |
+| Folia Support                    | ✅       | ✅           |
+| PlaceholderAPI / Integrations    | ✅       | ✅           |
+| Multi-Language (i18n)            | ✅       | ✅           |
+| Customizable GUI                 | ✅       | ✅           |
+| Hot Reload                       | ✅       | ✅           |
+| Lifetime Updates                 | ✅       | ✅           |
+| **Developer API**                | ❌       | ✅           |
+| Priority Support                 | ❌       | ✅           |
 
 ## Documentation
 
@@ -86,7 +105,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("com.kitemc:arcpass-api:1.3.5")
+    compileOnly("com.kitemc:arcpass-api:1.4.0")
 }
 ```
 
@@ -101,7 +120,7 @@ dependencies {
 <dependency>
     <groupId>com.kitemc</groupId>
     <artifactId>arcpass-api</artifactId>
-    <version>1.3.5</version>
+    <version>1.4.0</version>
     <scope>provided</scope>
 </dependency>
 ```
