@@ -72,7 +72,7 @@ ArcPass is a paid plugin. A valid license is required for full functionality.
 | Season Management                | ✅       | ✅           |
 | Leaderboards                     | ✅       | ✅           |
 | Database (SQLite / MySQL)        | ✅       | ✅           |
-| Cross-Server (Redis / Shared DB) | ✅       | ✅           |
+| Cross-Server (Redis / Shared DB) | ❌       | ✅           |
 | Folia Support                    | ✅       | ✅           |
 | PlaceholderAPI / Integrations    | ✅       | ✅           |
 | Multi-Language (i18n)            | ✅       | ✅           |
