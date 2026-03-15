@@ -29,6 +29,7 @@ ArcPass is a premium Battle Pass plugin that brings seasonal progression, quests
 - **Season Management** - Complete season lifecycle with archiving and progress reset
 - **Customizable GUI** - YAML-driven interface with ItemsAdder & Oraxen icon support
 - **Leaderboards** - Level and experience rankings with caching
+- **Cross-Server Support** - Seamless multi-server sync with three modes: standalone, shared-database, or Redis (Pub/Sub + migration locks + distributed locks)
 - **Database Support** - SQLite and MySQL/MariaDB with automatic schema migration
 - **Auto-Save** - Configurable periodic saves with dirty-tracking and failure retry
 - **Hot Reload** - Reload configs, passes, quests, rewards, and language files without restart
@@ -71,6 +72,7 @@ ArcPass is a paid plugin. A valid license is required for full functionality.
 | Season Management                | ✅       | ✅           |
 | Leaderboards                     | ✅       | ✅           |
 | Database (SQLite / MySQL)        | ✅       | ✅           |
+| Cross-Server (Redis / Shared DB) | ✅       | ✅           |
 | Folia Support                    | ✅       | ✅           |
 | PlaceholderAPI / Integrations    | ✅       | ✅           |
 | Multi-Language (i18n)            | ✅       | ✅           |
@@ -105,7 +107,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("com.kitemc:arcpass-api:1.4.2")
+    compileOnly("com.kitemc:arcpass-api:1.5.0")
 }
 ```
 
@@ -120,7 +122,7 @@ dependencies {
 <dependency>
     <groupId>com.kitemc</groupId>
     <artifactId>arcpass-api</artifactId>
-    <version>1.4.2</version>
+    <version>1.5.0</version>
     <scope>provided</scope>
 </dependency>
 ```
