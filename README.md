@@ -25,7 +25,8 @@ ArcPass is a premium Battle Pass plugin that brings seasonal progression, quests
 - **Rich Quest System** - Daily, weekly, seasonal, challenge, and story quests with auto-reset
 - **Flexible Rewards** - Items, commands, economy, permissions, titles, cosmetics
 - **Multi-Currency** - Vault/CMI economy and points plugins (PlayerPoints, CoinsEngine, TokenManager)
-- **Title Plugins** - DeluxeTags, TAB, NametagEdit with automatic fallback chain
+- **Title Plugins** - DeluxeTags, TAB, PlayerTitle, NametagEdit with automatic fallback chain
+- **Cosmetic Particles** - PlayerParticles integration for particle effect rewards
 - **Season Management** - Complete season lifecycle with archiving and progress reset
 - **Customizable GUI** - YAML-driven interface with ItemsAdder & Oraxen icon support
 - **Leaderboards** - Level and experience rankings with caching
@@ -33,7 +34,7 @@ ArcPass is a premium Battle Pass plugin that brings seasonal progression, quests
 - **Database Support** - SQLite and MySQL/MariaDB with automatic schema migration
 - **Auto-Save** - Configurable periodic saves with dirty-tracking and failure retry
 - **Hot Reload** - Reload configs, passes, quests, rewards, and language files without restart
-- **Wide Compatibility** - LuckPerms, PlaceholderAPI, MythicMobs, Jobs Reborn, and more
+- **Wide Compatibility** - LuckPerms, PlaceholderAPI, MythicMobs, Jobs Reborn, PlayerTitle, PlayerParticles, and more
 - **Folia Support** - Full region-based scheduling compatibility
 - **Multi-Language** - Built-in i18n with per-player locale support
 
@@ -107,7 +108,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("com.kitemc:arcpass-api:1.5.1")
+    compileOnly("com.kitemc:arcpass-api:1.6.0")
 }
 ```
 
@@ -122,7 +123,7 @@ dependencies {
 <dependency>
     <groupId>com.kitemc</groupId>
     <artifactId>arcpass-api</artifactId>
-    <version>1.5.1</version>
+    <version>1.6.0</version>
     <scope>provided</scope>
 </dependency>
 ```
