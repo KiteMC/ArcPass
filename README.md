@@ -8,7 +8,7 @@
 [![Downloads](https://img.shields.io/github/downloads/KiteMC/ArcPass/total?style=flat-square)](https://github.com/KiteMC/ArcPass/releases)
 [![License](https://img.shields.io/badge/License-Proprietary-red?style=flat-square)](https://license.kitemc.com/products/arcpass)
 
-[Documentation](https://kitemc.com/docs/arcpass/) • [Purchase](https://license.kitemc.com/products/arcpass) • [Discord](https://d iscord.com/invite/TCn9v88V)
+[Documentation](https://kitemc.com/docs/arcpass/) • [Purchase](https://license.kitemc.com/products/arcpass) • [Discord](https://discord.com/invite/TCn9v88V)
 
 </div>
 
