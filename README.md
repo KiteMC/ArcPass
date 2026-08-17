@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![版本](https://img.shields.io/badge/版本-1.8.5-blue)
+![版本](https://img.shields.io/badge/版本-1.9.0-blue)
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.18--1.21+-green)
 ![Java](https://img.shields.io/badge/Java-17+-orange)
 ![平台](https://img.shields.io/badge/平台-Paper%20%7C%20Spigot%20%7C%20Folia-purple)
@@ -23,7 +23,8 @@
 - 📅 **赛季系统** - 管理赛季内容与专属奖励
 - 🎯 **任务系统** - 日常、周常、赛季、挑战任务
 - ⏱️ **在线时长任务** - 使用 `playtime` 触发器按在线分钟累计进度
-- 🎁 **丰富奖励** - 物品、命令、经济、权限、称号、装饰
+- 🎁 **丰富奖励** - 物品、命令、经济、权限、称号、装饰，支持捕获任意物品作为奖励图标
+- 🎨 **RGB 色彩** - GUI、消息和称号支持十六进制 RGB 色彩
 - 💰 **多货币支持** - Vault/CMI 经济系统 及点卷插件 (PlayerPoints, CoinsEngine, TokenManager)
 - 🏷️ **多称号插件** - DeluxeTags、TAB、PlayerTitle、NametagEdit 自动降级
 - ✨ **装饰粒子** - PlayerParticles 集成，支持粒子效果奖励
@@ -92,7 +93,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("com.kitemc:arcpass-api:1.8.5")
+    compileOnly("com.kitemc:arcpass-api:1.9.0")
 }
 ```
 
@@ -107,7 +108,7 @@ dependencies {
 <dependency>
     <groupId>com.kitemc</groupId>
     <artifactId>arcpass-api</artifactId>
-    <version>1.8.5</version>
+    <version>1.9.0</version>
     <scope>provided</scope>
 </dependency>
 ```
