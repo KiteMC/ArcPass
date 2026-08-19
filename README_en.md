@@ -20,25 +20,12 @@ ArcPass is a premium Battle Pass plugin that brings seasonal progression, quests
 
 ## Features
 
-- **Multi-Pass System** - Define multiple passes (Combat, Explorer, Builder, etc.) with independent progression
-- **Multi-Tier Rewards** - Free, Premium, VIP tiers with independent reward tracks per pass
-- **Rich Quest System** - Daily, weekly, seasonal, challenge, and story quests with auto-reset
-- **Playtime Quests** - The `playtime` trigger advances progress once per online minute
-- **Flexible Rewards** - Items, commands, economy, permissions, titles, cosmetics, and captured item icons
-- **RGB Colors** - Hex RGB colors across GUIs, messages, and titles
-- **Multi-Currency** - Vault/CMI economy and points plugins (PlayerPoints, CoinsEngine, TokenManager)
-- **Title Plugins** - DeluxeTags, TAB, PlayerTitle, NametagEdit with automatic fallback chain
-- **Cosmetic Particles** - PlayerParticles integration for particle effect rewards
-- **Season Management** - Complete season lifecycle with archiving and progress reset
-- **Customizable GUI** - YAML-driven interface with ItemsAdder & Oraxen icon support
-- **Leaderboards** - Level and experience rankings with caching
-- **Cross-Server Support** - Seamless multi-server sync with three modes: standalone, shared-database, or Redis (Pub/Sub + migration locks + distributed locks)
-- **Database Support** - SQLite and MySQL/MariaDB with automatic schema migration
-- **Auto-Save** - Configurable periodic saves with dirty-tracking and failure retry
-- **Hot Reload** - Reload configs, passes, quests, rewards, and language files without restart
-- **Wide Compatibility** - LuckPerms, PlaceholderAPI, MythicMobs, Jobs Reborn, PlayerTitle, PlayerParticles, and more
-- **Folia Support** - Full region-based scheduling compatibility
-- **Multi-Language** - Built-in i18n with per-player locale support
+- **Passes & Seasons** - Multiple independent passes, free/paid tiers, season lifecycle management, archiving, and progress resets.
+- **Quests & Progression** - Daily, weekly, seasonal, challenge, and story quests, including per-minute `playtime` progression.
+- **Rewards & Integrations** - Item, command, economy, permission, title, and particle rewards with support for Vault/CMI, PlayerPoints, LuckPerms, PlaceholderAPI, and more.
+- **GUI & Localization** - YAML-driven GUI, RGB colors, ItemsAdder/Oraxen icons, multilingual configuration, and hot reload.
+- **Server & Storage** - Folia support, SQLite/MySQL/MariaDB storage, and cross-server synchronization through shared databases or Redis.
+- **Administration & API** - Level/experience leaderboards, autosave with retry handling, and a developer API.
 
 ## Requirements
 
