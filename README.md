@@ -175,6 +175,13 @@ public void onLevelUp(PlayerLevelUpEvent event) {
 
 ## 许可协议
 
-本插件为付费插件，禁止未经授权的传播。
+本插件为付费插件，禁止未经授权的传播。许可证通过支付宝渠道购买。
+
+| 版本 | 价格 | 适用场景 |
+|------|------|----------|
+| 中文标准版 | 68 元 | 单服基础通行证功能 |
+| 中文专业版 | 198 元 | 多服部署、跨服同步、开发者 API 与优先支持 |
+
+购买许可证：[KiteMC License Platform](https://license.kitemc.com/products/arcpass)
 
 © 2024-2026 KiteMC. 保留所有权利。
