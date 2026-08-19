@@ -43,12 +43,12 @@ ArcPass is a premium Battle Pass plugin that brings seasonal progression, quests
 
 ## License
 
-ArcPass is a paid plugin. Licenses are sold through the Alipay channel, and a valid license is required for full functionality.
+ArcPass is a paid plugin. Licenses are available through Alipay and USDT channels, and a valid license is required for full functionality.
 
-| Plan         | Price    | Scope |
-|--------------|----------|-------|
-| Chinese Standard | CNY 68  | Basic single-server battle pass features |
-| Chinese Professional | CNY 198 | Multi-server deployment, cross-server sync, Developer API, and priority support |
+| Plan         | Alipay Price | USDT Price | Scope |
+|--------------|--------------|------------|-------|
+| Standard     | CNY 68       | USD 12.99  | Basic single-server battle pass features |
+| Professional | CNY 198      | USD 29.99  | Multi-server deployment, cross-server sync, Developer API, and priority support |
 
 **[Purchase License](https://license.kitemc.com/products/arcpass)**
 
