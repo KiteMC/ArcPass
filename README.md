@@ -173,7 +173,7 @@ public void onLevelUp(PlayerLevelUpEvent event) {
 
 | 版本 | 支付宝价格 | USDT 价格 | 适用场景 |
 |------|------------|-----------|----------|
-| 标准版 | 68 元 | 12.99 USD | 单服基础通行证功能 |
+| 标准版 | 68 元 | 10.99 USD | 单服基础通行证功能 |
 | 专业版 | 198 元 | 29.99 USD | 多服部署、跨服同步、开发者 API 与优先支持 |
 
 购买许可证：[KiteMC License Platform](https://license.kitemc.com/products/arcpass)
