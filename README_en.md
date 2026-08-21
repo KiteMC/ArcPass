@@ -47,7 +47,7 @@ ArcPass is a paid plugin. Licenses are available through Alipay and USDT channel
 
 | Plan         | Alipay Price | USDT Price | Scope |
 |--------------|--------------|------------|-------|
-| Standard     | CNY 68       | USD 12.99  | Basic single-server battle pass features |
+| Standard     | CNY 68       | USD 10.99  | Basic single-server battle pass features |
 | Professional | CNY 198      | USD 29.99  | Multi-server deployment, cross-server sync, Developer API, and priority support |
 
 **[Purchase License](https://license.kitemc.com/products/arcpass)**
